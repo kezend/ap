@@ -1,0 +1,90 @@
+@media (max-width: 414px) {
+  #page1, #page2, #page3, #page4, #page5, #page6, #page7, #page8{
+    width: 80%;
+    height: 60vw;
+    font-size: 4vw;
+    margin: 0.5rem 0;
+    gap: 1rem;
+  }
+
+  .buyingMagazine{
+    column-gap: 20vw;
+  }
+
+  #arrows{
+    height: 1vw;
+  }
+  
+  #textPaid{
+    font-size: 3vw;
+  }
+  
+  #scBig{
+    font-size: 15vw;
+  }
+
+  #buttonBuyMagazine{
+    height: 5vw;
+    width: 23vw;
+    font-size: 3vw;
+  }
+
+  .headerOne, .headerTwo, .headerTwoMeet, .headerOneMeet, .headerHomeOne, .headerHomeTwo, .headerHomeThree{
+    font-size: 10vw;
+  }
+  .underheadText{
+    font-size: 1.5vw;
+  }
+
+  .headerTwo{
+    width: 55vw;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='2' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");  }
+  .activeMenu{
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='2' stroke-dasharray='1%2c 4' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");    font-size: 2vw;}
+  .footerBody{
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='2' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  }
+  .headerOneMeet{
+    width: 55vw;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='2' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");  }
+
+
+  .notactiveMenu{
+    font-size: 2vw;
+  }
+
+  .menu{
+    transform: translateX(8%);
+  }
+
+  .form{
+    width: 60vw;
+    top: 10%;
+    left: 12%;
+  }
+
+  .arr{
+    display: none;
+  }
+
+  .fmText, .smText, .tmText{
+      text-align: center; 
+      margin: 0 auto;
+      width: auto;
+  }
+  .posters1 img, .posters2 img, .posters3 img{
+      width: 100%;
+      margin-top: 1vw;
+      position: static;
+      opacity: 1;
+  }
+  .buttonMoreDiv{
+    margin-left: 0vw;
+  }
+}
+  
+  @media (min-width: 1024px) {
+    .page:hover img{
+        opacity: 1;
+    }
+}
